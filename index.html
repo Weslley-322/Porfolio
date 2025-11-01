@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+
+    <video id="bg-video" autoplay loop muted playsinline>
+        <source src="Img/background.mp4" type="video/mp4">
+    </video>
+
+    <header class="area-I">
+        <nav class="nav-flex">
+            <ul id="main-menu" class="menu-list">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habi">Habilidades</a></li>
+                <li><a href="#projs">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="my-area">
+                <h1>Olá, me chamo Weslley Eugênio</h1>
+                <p>Desenvolvedor de Sistemas em formação | Buscando domínio em Front-end</p>
+            </div>
+    </header>
+    
+    <main>
+        <section id="sobre" class="container">
+            <h2>Sobre mim</h2>
+            <p>Atualmente cursando Desenvolvimento de Sistemas e estou focado em aprimorar minha habilidades de Front-end, principalmente HTML, CSS, JavaScript e frameworks modernos</p>
+        </section>
+
+        <section id="habi" class="container">
+            <h2>Habilidades e Ferramentas</h2>
+
+            <div class="habilidades-grid">
+
+                <details class="categoria">
+                    <summary class="titulo-categoria">Front-end</summary>
+
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <img src="Img/icons8-html-5-64.png" alt="Html-icon">
+                            <span>HTML 5</span>
+                        </li>
+
+                        <li class="tool-item">
+                            <img src="Img/icons8-css3-48.png" alt="Css-icon">
+                            <span>CSS3</span>
+                        </li>
+
+                        <li class="tool-item">
+                            <img src="Img/icons8-javascript-64.png" alt="Js-icon">
+                            <span>JavaScript</span>
+                        </li>
+                    </ul>
+                </details>
+
+                <details class="categoria">
+                    <summary class="titulo-categoria">Back-end</summary>
+
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <img src="Img/icons8-node-js-48.png" alt="Node-icon">
+                            <span>Node.js</span>
+                        </li>
+                    </ul>
+                </details>
+
+                <details class="categoria">
+                    <summary class="titulo-categoria">Banco de Dados</summary>
+
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <img src="Img/icons8-mysql-50.png" alt="MySql-icon">
+                            <span>MySQL</span>
+                        </li>
+                    </ul>
+                </details>
+
+                <details class="categoria">
+                    <summary class="titulo-categoria">Ferramentas</summary>
+
+                    <ul class="tool-list">
+                        <li class="tool-item">
+                            <img src="Img/icons8-github-logo-48.png" alt="Github-icon">
+                            <span>Git/Github</span>
+                        </li>
+
+                        <li class="tool-item">
+                            <img src="Img/icons8-vs-code-48.png" alt="Vs-icon">
+                            <span>Vs Code</span>
+                        </li>
+
+                        <li class="tool-item">
+                            <img src="Img/file_type_jest_icon_130514.png" alt="Jest-icon">
+                            <span>Jest</span>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+
+        <section id="projs" class="container">
+            <h2>Projetos</h2>
+
+            <div class="projeto-grid">
+                <div class="projeto">
+                    <img src="Img/icons8-money-50.png" alt="icone-dinheiro" class="proj-img">
+                    <div class="projeto-info">
+                        <h3>Gerenciador Financeiro</h3>
+                        <p class="projeto-desc">
+                            Projeto desenvolvido para organização financeira simples. Feito com Html, Css, Js e Electron.
+                        </p>
+
+                        <a href="https://github.com/Weslley-322/Gerenciador-Financeiro" target="_blank" class="btn-repo">
+                            Ver repositório
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="Img/icons8-camera-50.png" alt="camera-icon" class="proj-img">
+                    <div class="projeto-info">
+                        <h3>Photoviewer-lite</h3>
+                        <p class="projeto-desc">
+                            Um visualizador de foto simples. Feito com Html, Css, Js e Electron.
+                        </p>
+
+                        <a href="https://github.com/Weslley-322/PhotoViewer-Lite" target="_blank" class="btn-repo">
+                            Ver repositório
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="Img/icons8-tool-50.png" alt="tool-icon" class="proj-img"">
+                    <div class="projeto-info">
+                        <h3>Oficina em Java</h3>
+                        <p class="projeto-desc">
+                            Um sistema de console para simular e gerenciar as operações de uma oficina. Feito com Java.
+                        </p>
+
+                        <a href="https://github.com/Weslley-322/Java-POO" target="_blank" class="btn-repo">
+                            Ver repositório
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="Img/icons8-html-50.png" alt="page-icon" class="proj-img">
+                    <div class="projeto-info">
+                        <h3>Página Made in Abyss</h3>
+                        <p class="projeto-desc">
+                            Uma página de apresentação simples, feita somente com Html e Css.
+                        </p>
+
+                        <a href="https://github.com/Weslley-322/Made-in-Abyss" target="_blank" class="btn-repo">
+                            Ver repositório
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Entre em contato</h2>
+
+            <div class="contato-flex">
+                <a href="mailto:weslleyeugenio03@gmail.com" class="contato-item">
+                    <img src="Img/icons8-gmail-32.png" alt="email" class="contato-icon">
+                </a>
+
+                <a href="https://wa.me/5581999277331" target="_blank" class="contato-item">
+                    <img src="Img/7559928_whatsapp_pixel_social_logo_chat_icon.png" alt="whats" class="contato-icon">
+                </a>
+
+                <a href="https://github.com/Weslley-322" target="_blank" class="contato-item">
+                    <img src="Img/github.svg" alt="github" class="contato-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="conteudo">
+            <small>Desenvolvido por Weslley Eugênio &copy; 2025. Portfólio Acadêmico</small>
+        </div>
+        <div class="attributions">
+            <small>
+                Icons retirados de <a href="https://icons8.com/">icons8</a> e <a href="https://icon-icons.com/">Free Icons</a>
+                | Imagem de fundo retirada do <a href="https://br.pinterest.com/pin/411938697158395600">Pinterest</a>
+            </small>
+        </div>
+    </footer>
+
+     <script src="script.js"></script> 
+</body>
+</html>
