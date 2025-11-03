@@ -49,7 +49,7 @@ Para rodar o portfólio na sua máquina e inspecionar o código, siga os passos 
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd seu-repositorio
+    cd Portfolio
     ```
 3.  **Abra no navegador:**
     Como é um projeto estático (HTML, CSS, JS puros), basta abrir o arquivo `index.html` em qualquer navegador.
