@@ -1,8 +1,5 @@
 # 👾 Portfólio Acadêmico: Weslley Eugênio - Neo-Retro
 
-[![Status do Deploy](https://img.shields.io/static/v1?label=Vercel&message=ONLINE&color=4AD6D6&style=for-the-badge&logo=vercel)](https://weslley-portfolio.vercel.app/)
-[![Tecnologias](https://img.shields.io/static/v1?label=Tecnologias&message=HTML%20%7C%20CSS%20%7C%20JS&color=FFB84D&style=for-the-badge&logo=codesandbox)](https://github.com/Weslley-322/Porfolio.git)
-
 ---
 
 ## 🎯 Sobre o Projeto
