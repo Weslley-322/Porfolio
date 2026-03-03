@@ -4,7 +4,7 @@
 
 ## 🎯 Sobre o Projeto
 
-Este é o meu portfólio acadêmico e pessoal, desenvolvido para apresentar minhas habilidades e projetos na área de Desenvolvimento de Sistemas. O design é inspirado na estética **Neo-Retro** e **Pixel Art**, criando uma experiência única e temática.
+Este é o meu primeiro portfólio acadêmico e pessoal, desenvolvido para apresentar minhas habilidades e projetos na área de Desenvolvimento de Sistemas. O design é inspirado na estética **Neo-Retro** e **Pixel Art**, criando uma experiência única e temática.
 
 O projeto foi construído com foco em fundamentos sólidos do Front-end: HTML, CSS e JavaScript puro, garantindo desempenho e total controle sobre o estilo.
 
