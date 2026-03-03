@@ -24,12 +24,6 @@ O projeto foi construído com foco em fundamentos sólidos do Front-end: HTML, C
 | **CSS3** | Estilização, layout Flexbox/Grid e criação dos efeitos Neon. |
 | **JavaScript (Puro)** | Lógica de comportamento (Efeito Máquina de Escrever e Navegação). |
 
-## 🔗 Acesso ao Portfólio
-
-Você pode visualizar a versão online deste portfólio no Vercel através do link:
-
-> https://weslley-portfolio.vercel.app/
-
 ## 🎨 Atribuições
 
 * **Fonte Principal:** Google Fonts - 'Press Start 2P'
